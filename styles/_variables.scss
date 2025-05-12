@@ -1,0 +1,24 @@
+$font-size-regular:16;
+$font-size-header-first:60;
+$font-size-header-second:48;
+$font-size-header-third:24;
+$font-size-header-fourth:20;
+$font-size-header-fifth:18;
+$border-radius-button:40;
+$height-button:44;
+$padding-button:0 20;
+
+:root{
+  --color-white:#FFFFFF;
+  --color-dark:#1F1D1B;
+  --color-orange:#FF9900;
+  --color-black:#000000;
+
+
+  --border-radius:50px;
+  --border:2px solid var(--color-white);
+
+  --font-family-yantramanav:"Yantramanav", sans-serif;
+  --section-padding-y:50px;
+
+}

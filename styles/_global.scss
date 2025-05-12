@@ -1,0 +1,16 @@
+@import "mixins";
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-family: var(--font-family-yantramanav);
+  @include font-face($font-size-regular*1px, 300, var(--color-dark));
+}
+
+.orange {
+  background-color: var(--color-orange);
+}
+.dark {
+  background-color: var(--color-dark);
+}
