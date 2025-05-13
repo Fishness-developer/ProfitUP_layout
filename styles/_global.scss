@@ -8,6 +8,12 @@ body {
   @include font-face($font-size-regular*1px, 300, var(--color-dark));
 }
 
+h2{
+  font-family: var(--font-family-yantramanav);
+  @include font-face($font-size-header-second*0.1rem, 700, var(--color-white));
+  text-transform: none;
+}
+
 .orange {
   background-color: var(--color-orange);
 }
