@@ -13,6 +13,16 @@ h2{
   @include font-face($font-size-header-second*0.1rem, 700, var(--color-white));
   text-transform: none;
 }
+h3{
+  font-family: var(--font-family-yantramanav);
+  @include font-face($font-size-header-third*0.1rem, 700, var(--color-white));
+  text-transform: uppercase;
+}
+h4{
+  font-family: var(--font-family-yantramanav);
+  @include font-face($font-size-header-fourth*0.1rem, 600, var(--color-dark));
+  text-transform: uppercase;
+}
 
 .orange {
   background-color: var(--color-orange);
